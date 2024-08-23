@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		87D2AE502C790AAB00CDE29B /* Resturant_ReviewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D2AE4F2C790AAB00CDE29B /* Resturant_ReviewsApp.swift */; };
-		87D2AE522C790AAB00CDE29B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D2AE512C790AAB00CDE29B /* ContentView.swift */; };
 		87D2AE542C790AAC00CDE29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D2AE532C790AAC00CDE29B /* Assets.xcassets */; };
 		87D2AE572C790AAC00CDE29B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D2AE562C790AAC00CDE29B /* Preview Assets.xcassets */; };
 		87D2AE612C790AAC00CDE29B /* Resturant_ReviewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D2AE602C790AAC00CDE29B /* Resturant_ReviewsTests.swift */; };
 		87D2AE6B2C790AAC00CDE29B /* Resturant_ReviewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D2AE6A2C790AAC00CDE29B /* Resturant_ReviewsUITests.swift */; };
 		87D2AE6D2C790AAC00CDE29B /* Resturant_ReviewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D2AE6C2C790AAC00CDE29B /* Resturant_ReviewsUITestsLaunchTests.swift */; };
+		87D2AE7A2C790EBB00CDE29B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D2AE792C790EBA00CDE29B /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		87D2AE4C2C790AAB00CDE29B /* Resturant Reviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resturant Reviews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D2AE4F2C790AAB00CDE29B /* Resturant_ReviewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resturant_ReviewsApp.swift; sourceTree = "<group>"; };
-		87D2AE512C790AAB00CDE29B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		87D2AE532C790AAC00CDE29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87D2AE562C790AAC00CDE29B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87D2AE5C2C790AAC00CDE29B /* Resturant ReviewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resturant ReviewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		87D2AE662C790AAC00CDE29B /* Resturant ReviewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resturant ReviewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D2AE6A2C790AAC00CDE29B /* Resturant_ReviewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resturant_ReviewsUITests.swift; sourceTree = "<group>"; };
 		87D2AE6C2C790AAC00CDE29B /* Resturant_ReviewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resturant_ReviewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87D2AE792C790EBA00CDE29B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +94,8 @@
 		87D2AE4E2C790AAB00CDE29B /* Resturant Reviews */ = {
 			isa = PBXGroup;
 			children = (
+				87D2AE792C790EBA00CDE29B /* ContentView.swift */,
 				87D2AE4F2C790AAB00CDE29B /* Resturant_ReviewsApp.swift */,
-				87D2AE512C790AAB00CDE29B /* ContentView.swift */,
 				87D2AE532C790AAC00CDE29B /* Assets.xcassets */,
 				87D2AE552C790AAC00CDE29B /* Preview Content */,
 			);
@@ -257,8 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87D2AE522C790AAB00CDE29B /* ContentView.swift in Sources */,
 				87D2AE502C790AAB00CDE29B /* Resturant_ReviewsApp.swift in Sources */,
+				87D2AE7A2C790EBB00CDE29B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

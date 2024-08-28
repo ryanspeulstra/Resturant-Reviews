@@ -13,11 +13,18 @@ struct ContentView: View {
             Image(systemName: "bird.fill")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("You can almost hear the Doppler shift from the 2323's horn as PC train TT-3 zooms westbound through Cedarville, Ohio, on the evening of August 1, 1968. As usual, the TrucTrain, as Pennsy called its piggyback trains, has modern, high horsepower motors. On this day, GP35 #2323 is joined by a Century 628, SD45 and another GP35 -- all former PRR running mates.vPenn Central eventually combined PRR's TrucTrain and NYC's SuperVan intermodal brands to create the familiar TrailVan or TV nomenclature.")
-                .padding(.leading, 0.0)
-                .foregroundStyle(.tint)
+            Text("He gives strength to the weary and increases the power of the weak. Even youths grow tired and weary, and young men stumble and fall; but those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint.")
                 .fontWeight(.bold)
-                .blur(radius: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/)
+                .font(.title)
+                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                .multilineTextAlignment(.center)
+                .lineSpacing(5)
+                .padding()
+                .rotation3DEffect(
+                    .degrees(30),
+                axis: (x: 1.0, y: 0.0, z: 0.0)
+                )
+                .shadow(color: .gray, radius: 2, x:0, y:5)
         }
         .padding()
     }
